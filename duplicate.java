@@ -5,7 +5,7 @@ public class duplicate{
         LinkedHashSet<Character> seen = new LinkedHashSet<>();
         StringBuilder result = new StringBuilder();
         for (char ch : str.toCharArray()) {
-            if (seen.add(ch)) { // Adds only if it's not already present
+            if (seen.add(ch)) { 
                 result.append(ch);
             }
         }
